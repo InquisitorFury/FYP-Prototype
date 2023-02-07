@@ -28,8 +28,8 @@ nav {
     background-color: transparent;
 }
 .searchInput::placeholder{
-    color: white;
-    font-size:24px;
+    color: black;
+    font-size:23px;
 }
 .searchIcon {
     float: right;
