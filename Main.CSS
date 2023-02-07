@@ -56,20 +56,83 @@ nav {
 .menuItem {
    margin:0px 30px;
 }
-.slider {
+#i {
+    background-color: #e2b183;
+    color: white;
+    margin: 0px;
     padding: 10px 20px;
-    box-shadow: 2px -1px 2px 2px ;
-    margin: 2em 10em;
-    align-items: center;
+}
+.sliderbg {
+    box-shadow: 3px -2px 10px 3px;
+    background-color: #2A2A2A;
+    margin: 20px 20em;
+}
+.slider {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.sliderWrapper {
+    display: flex;
+    width:250vw;
+}
+.sliderItem {
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    width:70vw;
+    position: relative;
+    
 }
 .sliderimg {
-    width:100%;
+    width: 60%;
+    z-index: 1;
 }
-#i {
-    background-color: green;
+.slideitembg {
+    width: 60%;
+    height: 750px;
+    border-radius: 50px;
+    background-color: #e2b183;
+    position: absolute;
+    left: 0;
+}
+.sliderTitle {
+    position:absolute;
+    top:20%;
+    right:6%;
+    color:white;
+    font-family:'Courier New';
+ 
+    text-align: right;
+}
+.sliderPrice {
+    position: absolute;
+    top: 40%;
+    right: 6%;
     color: white;
-    margin:0px;
-    padding: 10px 20px;
+    font-family: 'Courier New';
+    font-size:30px;
+    text-align: right;
+}
 
-    
+.sliderDesc {
+    position: absolute;
+    bottom: 0%;
+    right: 6%;
+    color: white;
+    text-shadow:1px 1px 13px limegreen;
+    font-family: 'Courier New';
+   
+    font-size: 32px;
+    text-align: right;
+}
+.sliderButton {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    text-shadow: 1px 1px 13px limegreen;
+    font-family: 'Courier New';
+    font-size: 32px;
+    text-align: right;
+    width:10px;
+    height:20px;
 }
