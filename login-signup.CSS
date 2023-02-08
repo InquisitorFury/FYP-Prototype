@@ -94,7 +94,7 @@ body {
 .signupform {
     position: absolute;
     top: 20%;
-    right: 30%;
+    left: 30%;
     background-color: #36393f;
     width: 50%;
     height: 70%;
@@ -127,7 +127,7 @@ body {
 
 #spassword {
     position: absolute;
-    bottom: -100%;
+    bottom: -500%;
     right: 0%;
     color: black;
     width: 40%;
@@ -157,15 +157,51 @@ body {
 
 .spasswordlabel {
     position: absolute;
-    top: 0%;
+    top: 400%;
     right: 31%;
+    font-family: 'Courier New';
+    color: #e2b183;
+}
+
+#sname {
+    position: absolute;
+    bottom: -100%;
+    right: 0%;
+    color: black;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#fname {
+    position: absolute;
+    bottom: -300%;
+    right: 0%;
+    color: black;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.fnamelabel {
+    position: absolute;
+    top: 200%;
+    right: 34%;
+    font-family: 'Courier New';
+    color: #e2b183;
+}
+
+.snamelabel {
+    position: absolute;
+    top: 0%;
+    right: 34%;
     font-family: 'Courier New';
     color: #e2b183;
 }
 
 .ssubmit {
     position: absolute;
-    bottom: -510%;
+    bottom: -710%;
     right: 5%;
     width: 30%;
     height: 100%;
