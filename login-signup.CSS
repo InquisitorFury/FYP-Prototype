@@ -1,0 +1,25 @@
+body {
+    background-image: url(images/Logo.jpg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.form {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    background-color: #36393f;
+    width: 50%;
+    height: 50%;
+}
+.formWrapper {
+    display:flex;
+
+}
+.formItem {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.formimg {
+}
