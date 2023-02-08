@@ -3,28 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <Title>Home</Title>
-        <link rel="stylesheet" href="MAIN.CSS">
+        <link rel="stylesheet" href="login-signup.CSS">
 
     </head>
     <body>
-        <section>
-            <div class="sliderbg">
-                <div class="slider">
-                    <div class="sliderWrapper">
-                        <div class="sliderItem">
-                            <img src="images/silver-ring.png" alt="product" class="sliderimg">
-                            <div class="slideitembg"></div>
-                            <h1 class="sliderTitle">BEAUTIFUL DIAMOND RING</h1>
-                            <h3 class="sliderPrice">£53,000</h3>
-                            <p class="sliderDesc">AMAZING PRICES TODAY! <br> COME  JOIN! <br> BID AT 15:00 GMT</p>
+        <div class="signupform">
+            <div class="signupformWrapper">
+                <div class="signupformformItem">
+                    <a href="Home.html"><img src="images/logo.png" alt="product" class="sformimg"></a>
+                    <h1 class="stitle">Collectibles is extatic that you're back!</h1>
 
-                        </div>
-
-
-
-                    </div>
+                    <form class="sforms" action="/data.txt">
+                        <label class="semaillabel" for="email">Email address or username:</label><br>
+                        <input type="text" id="semail" name="email" value=""><br>
+                        <label class="spasswordlabel" for="password">Password:</label><br>
+                        <input type="password" id="spassword" name="" value=""><br><br>
+                        <input class="ssubmit" type="submit" value="Submit">
+                    </form>
                 </div>
+
+
+
             </div>
-        </section>
+        </div>
     </body>
 </html5>
