@@ -7,7 +7,7 @@ body {
 .form {
     position: absolute;
     top: 30%;
-    right: 30%;
+    left: 30%;
     background-color: #36393f;
     width: 50%;
     height: 50%;
