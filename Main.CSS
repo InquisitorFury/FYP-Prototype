@@ -8,17 +8,17 @@ nav {
     background-color: #2A2A2A;
     color: white;
     padding:0px 50px;
-
-    
+ 
 }
 .logo {
-    width:40%;
+    width:50%;
     
 }
 .navTop {
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#2A2A2A
 }
 .search {
     align-items: center;
